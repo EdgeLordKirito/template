@@ -10,3 +10,8 @@ module_name:
 rev:
     type: str
     help: What is the rev?
+
+usedAsTemplate:
+  type: bool
+  default: false
+  help: "Should the generated file also be marked as a template?"
